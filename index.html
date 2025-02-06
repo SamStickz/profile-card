@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Add Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="profile-card">
+      <div class="header"></div>
+      <div class="profile-image">
+        <img
+          src="C:\My Web Sites\profile card\images\pfp.jpg"
+          alt="Adeleye Samuel"
+          data-testid="profilePicture"
+        />
+      </div>
+      <h2 data-testid="fullName">Adeleye Samuel</h2>
+      <p class="title" data-testid="jobTitle">Front End Developer</p>
+      <p class="description" data-testid="shortBio">
+        Passionate frontend developer with a love for clean code, responsive
+        design, and learning new technologies.
+      </p>
+      <p data-testid="currentLocation">Lagos, Nigeria</p>
+      <p data-testid="emailAddress">sadeleye437@gmail.com</p>
+      <div class="social-icons" data-testid="socialLinks">
+        <!-- Updated social links with Font Awesome icons -->
+        <a
+          href="https://x.com/samstickzzz?s=21&t=dC8__MGcTJ3dnEycIobJkw"
+          target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://github.com/SamStickz" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/share/15BGY79iVo/?mibextid=wwXIfr"
+          target="_blank"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+      </div>
+      <p data-testid="currentTimeUTC" id="current-time"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
